@@ -1,0 +1,36 @@
+entity Devis {
+    name String required minlength(4) maxlength(40)
+}
+
+entity Client {
+	firstname String,
+    name String required
+}
+
+entity Commercial {
+	firstname String,
+    name String required
+}
+
+entity Module {
+	name String required
+}
+
+entity Composant {
+	name String required
+}
+
+
+
+
+// Set pagination options
+paginate Devis, Client, Commercial, Module, Composant with infinite-scroll
+
+filter *
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with cyber06
