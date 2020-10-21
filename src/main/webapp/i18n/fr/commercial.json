@@ -1,0 +1,23 @@
+{
+  "appJhipsterApp": {
+    "commercial": {
+      "home": {
+        "title": "Commercials",
+        "createLabel": "Créer un nouveau Commercial",
+        "createOrEditLabel": "Créer ou éditer un Commercial",
+        "notFound": "Aucun Commercial trouvé"
+      },
+      "created": "Un nouveau Commercial a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Commercial avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Commercial avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Commercial {{ id }} ?"
+      },
+      "detail": {
+        "title": "Commercial"
+      },
+      "firstname": "Firstname",
+      "name": "Name"
+    }
+  }
+}

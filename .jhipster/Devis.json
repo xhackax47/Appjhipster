@@ -1,0 +1,29 @@
+{
+  "name": "Devis",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required",
+        "minlength",
+        "maxlength"
+      ],
+      "fieldValidateRulesMinlength": "4",
+      "fieldValidateRulesMaxlength": "40"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201020152859",
+  "entityTableName": "devis",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*",
+  "angularJSSuffix": "cyber06"
+}
